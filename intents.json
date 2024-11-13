@@ -1,0 +1,60 @@
+{
+    "intents": [
+      {
+        "tag": "saludos",
+        "patterns": ["hello", "hola", "que tal", "buen dia", "que pasa"],
+        "responses": ["Hello", "Hola", "Qué tal", "Buen día", "Qué pasa"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["adios", "hasta luego", "gracias por todo", "me tengo que ir", "luego regreso"],
+        "responses": ["Hasta luego", "Que te vaya bien", "Suerte", "Bye"]
+      },
+      {
+        "tag": "informacion",
+        "patterns": ["numero telefonico", "numero para comunicarme", "algun numero celular", "un numero para llamar"],
+        "responses": ["Sí, puede comunicarse a este número: 999999", "Claro, aquí tiene: 999999", "Sí, es este: 999999", "Este es el número para llamar: 999999"]
+      },
+      {
+        "tag": "recepcion",
+        "patterns": ["A qué hora está abierto", "a qué hora puedo ir", "a qué hora me atienden"],
+        "responses": ["Puede asistir de lunes a viernes de 9am a 4pm", "El Tec se encuentra disponible en un horario de 9am a 4pm de lunes a viernes"]
+      },
+      {
+        "tag": "ubicacion",
+        "patterns": ["donde está ubicada", "donde se encuentra", "cual es su direccion"],
+        "responses": ["La institución se encuentra ubicada en San Pedro Pochutla, Oaxaca"]
+      },
+      {
+        "tag": "carreras",
+        "patterns": ["qué carreras ofrecen", "qué puedo estudiar aquí", "qué programas tienen"],
+        "responses": ["Ofrecemos Ingeniería en Sistemas Computacionales, Ingeniería Civil, Ingeniería en Gestión Empresarial, entre otras."]
+      },
+      {
+        "tag": "admisiones",
+        "patterns": ["cómo me inscribo", "qué necesito para inscribirme", "proceso de admisión"],
+        "responses": ["Para inscribirte, necesitas llenar el formulario en nuestro sitio web y presentar los documentos requeridos. Puedes encontrar más información en nuestra página de admisiones."]
+      },
+      {
+        "tag": "becas",
+        "patterns": ["ofrecen becas", "hay becas disponibles", "cómo puedo obtener una beca"],
+        "responses": ["Sí, ofrecemos varias becas. Puedes aplicar a través de nuestro portal de estudiantes. Revisa los requisitos y plazos en nuestra sección de becas en el sitio web."]
+      },
+      {
+        "tag": "contacto",
+        "patterns": ["cómo puedo contactarlos", "correo electrónico de contacto", "hay algún correo para contacto"],
+        "responses": ["Puede contactarnos al correo: contacto@itpochutla.edu.mx"]
+      },
+      {
+        "tag": "servicios",
+        "patterns": ["qué servicios ofrecen", "qué instalaciones tienen", "qué facilidades hay para los estudiantes"],
+        "responses": ["Contamos con biblioteca, laboratorios de cómputo, instalaciones deportivas, centro de idiomas, y más."]
+      },
+      {
+        "tag": "calendario",
+        "patterns": ["cuál es el calendario académico", "cuándo inician las clases", "fechas importantes"],
+        "responses": ["El calendario académico está disponible en nuestro sitio web. Las clases generalmente inician en septiembre y febrero."]
+      }
+    ]
+  }
+  
